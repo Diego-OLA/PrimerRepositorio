@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    display: flex;
+    height: 100vh;
+    width:100%;
+    border: solid black 4px;
+    background-color: rgba(11, 78, 11, 0.736);
+}
+.container{
+    background-color: rgb(66, 61, 61);
+    display: flex;
+    height: 644px;
+    width:500px;
+
+   
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    flex-direction: column;
+    gap: 50px;
+  
+}
+.acera1{
+    
+    height: 99%;
+    width: 50px;
+    
+    background-color: grey;
+  
+}
+.caja{
+    height: 80px;
+    width:10px;
+    border:solid black 2px;
+    flex-grow: 1;
+  
+
+
+}
+
+.caja1{ background-color: rgb(255, 221, 0);
+
+}
+.caja2{ background-color: rgb(255, 221, 0);
+
+}
+.caja3{ background-color: rgb(255, 221, 0);
+
+}
+.acera2{
+    margin-left: 30%;
+    height: 99%;
+    width:50px;  
+    background-color: grey;
+   
+
+}
+.faro{
+    margin: 50px 0 0 0;
+   
+    height: 10%;
+    width: 125%;
+    background-color: rgba(255, 255, 0, 0.222);
+    border:solid 1px rgba(255, 255, 0, 0.067);
+    border-radius: 50%;
+}
+
+.luz{
+    margin: 12px;
+    height: 50%;
+    width: 60%;
+    background-color: rgba(19, 19, 18, 0.813);
+    border:solid 1px rgba(255, 255, 0, 0.067);
+    border-radius: 50%;
+}
+
+.faro1{
+    margin: 280px 0 0 0;
+   
+    height: 10%;
+    width: 125%;
+    background-color: rgba(255, 255, 0, 0.222);
+    border:solid 1px rgba(255, 255, 0, 0.067);
+    border-radius: 50%;
+}
+
+.luz1{
+    margin: 12px;
+    height: 50%;
+    width: 60%;
+    background-color: rgba(19, 19, 18, 0.813);
+    border:solid 1px rgba(255, 255, 0, 0.067);
+    border-radius: 50%;
+}
+
+.faro2{
+    margin: 140px 0 0 0;
+   
+    height: 10%;
+    width: 125%;
+    background-color: rgba(255, 255, 0, 0.222);
+    border:solid 1px rgba(255, 255, 0, 0.067);
+    border-radius: 50%;
+}
+
+.luz2{
+    margin: 12px;
+    height: 50%;
+    width: 60%;
+    background-color: rgba(19, 19, 18, 0.813);
+    border:solid 1px rgba(255, 255, 0, 0.067);
+    border-radius: 50%;
+}
+
